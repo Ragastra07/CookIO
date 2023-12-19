@@ -464,8 +464,8 @@ main {flex-grow: 1;}
   margin-inline-start: auto;
 }
 
-[date-theme="light"] :where(.logo-dark, .theme-switch .light-icon),
-[date-theme="dark"] :where(.logo-light, .theme-switch .dark-icon){
+[data-theme="light"] :where(.logo-dark, .theme-switch .light-icon),
+[data-theme="dark"] :where(.logo-light, .theme-switch .dark-icon){
   display: none;
 }
 
