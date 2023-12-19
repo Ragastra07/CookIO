@@ -56,6 +56,7 @@
   /**
   * TYPOGRAPHY
   */
+
   /* Font Family */
   --font-primary: "DM Serif Display", serif;
   --font-secondary: "DM Sans", sans-serif;
@@ -205,14 +206,14 @@ body {
   background-color: var(--background);
   color: var(--on-background);
   font-size: var(--fs-body-medium);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-regular);
   line-height: 20px;
   letter-spacing: 0.25px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding-block: calc(var(--header-height) + 16px) var(--mobile-nav-height);
-  opacity: 0;
+  /* opacity: 0; */
   animation: fade 300ms var(--transition-timing-function) forwards;
 }
 
