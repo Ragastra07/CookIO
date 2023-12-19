@@ -30,18 +30,60 @@
     <script src="./assets/js/home.js" type="module"></script>
   </head>
   <body>
-    <h1>halo</h1>
-    <p class="display-large">typograph</p>
-    <p class="display-medium">typograph</p>
-    <p class="display-small">typograph</p>
-    <p class="headline-small">typograph</p>
-    <p class="title-medium">typograph</p>
-    <p class="title-small">typograph</p>
-    <p class="body-large">typograph</p>
-    <p class="body-medium">typograph</p>
-    <p class="label-large">typograph</p>
-    <p class="label-medium">typograph</p>
-    <p class="label-small">typograph</p>
-    <p>hallohh</p>
+    <!-- HEADER -->
+
+    <header class="header" data-header>
+      <a href="/" class="logo">
+        <img
+          src="./assets/images/logo-light.svg"
+          width="156"
+          height="32"
+          alt="Cook.io"
+          class="logo-light"
+        />
+        <img
+          src="./assets/images/logo-light.svg"
+          width="156"
+          height="32"
+          alt="Cook.io"
+          class="logo-dark"
+        />
+      </a>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="./recipes.html" class="navbar-link ttle-small has-state"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a href="./recipes.html" class="navbar-link ttle-small has-state"
+              >Recipes</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button
+        class="icon-btn theme-switch has-state"
+        aria-pressed="false"
+        aria-label="Toggle light and dark theme"
+        data-theme-btn
+      >
+        <span class="material-symbols-outlined light-icon" aria-hidden="true"
+          >light_mode
+        </span>
+        <span class="material-symbols-outlined dark-icon" aria-hidden="true"
+          >dark_mode
+        </span>
+      </button>
+
+      <a href="./saved-recipes.html" class="btn btn-primary has-icon">
+        <span class="material-symbols-outlined" aria-hidden="true">book</span>
+        <span class="span">Saved Recipes</span>
+      </a>
+
+    </header>
   </body>
 </html>
