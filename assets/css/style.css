@@ -320,7 +320,7 @@ main {flex-grow: 1;}
   position: absolute;
   inset: 0;
   transition: var(--transition-short);
-  z-index: -1;
+  z-index: 1;
 }
 
 .has-state:where(:hover, :focus-visible):not(:active)::after{
